@@ -1,9 +1,10 @@
 var $ = require('jquery');
+require('./css/style.css');
 
-export function credEncaDeca(name){
-    $("<div>").append(
-        $("div").append(
-            $("<h3>").append(name).addClass("gridName")
-        ).addClass("encaTitle")
-    ).addClass('EncaDeca')
+export function credEncaDeca(rootElement, name){
+    rootElement.append(
+        $("<div>").append(
+            $("<h3>").text(name).addClass("componentsTitle")
+        ).addClass("EncaDeca")
+    )   
 }

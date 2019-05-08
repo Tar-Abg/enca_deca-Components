@@ -4,7 +4,7 @@
     padding: 0;
 }
 .EncaDeca{
-    width: 1085px;
+    width: 56.51%;
     height: 100px;
     border-radius: 15px;
     border: 1px solid #02536e;
@@ -12,5 +12,5 @@
 }
 .EncaDeca .componentsTitle{
     color: #02536e;
-    font-size: 20px
+    font-size: 1.1vw
 }
